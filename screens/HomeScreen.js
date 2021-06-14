@@ -19,7 +19,7 @@ export default class HomeScreen extends Component {
        dataSource: responseJson
       })
     })
-    .catch(error=>console.log(error)) //to catch the errors if any
+    .catch(error=>console.log(error))
     }
  
     render(){
